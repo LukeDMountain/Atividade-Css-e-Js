@@ -1,0 +1,206 @@
+body {
+    background-color: #f0f0f0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&amp;family=Roboto:wght@300;400;500;900&amp;display=swap"); /* Importa fontes externas. */
+* { /* Define estilos para o elemento HTML especificado. */
+  margin: 0; /* Define uma propriedade e valor específicos. */
+  padding: 0; /* Define uma propriedade e valor específicos. */
+  box-sizing: border-box; /* Define uma propriedade e valor específicos. */
+  font-family: "Open Sans", sans-serif; /* Define uma propriedade e valor específicos. */
+}
+
+main { /* Define estilos para o elemento HTML especificado. */
+  position: relative; /* Define uma propriedade e valor específicos. */
+  width: calc(min(90rem, 90%)); /* Define uma propriedade e valor específicos. */
+  margin: 0 auto; /* Define uma propriedade e valor específicos. */
+  min-height: 100vh; /* Define uma propriedade e valor específicos. */
+  column-gap: 3rem; /* Define uma propriedade e valor específicos. */
+  padding-block: min(20vh, 3rem); /* Define uma propriedade e valor específicos. */
+}
+
+.bg { /* Define estilos para a classe especificada. */
+  position: fixed; /* Define uma propriedade e valor específicos. */
+  top: -4rem; /* Define uma propriedade e valor específicos. */
+  left: -12rem; /* Define uma propriedade e valor específicos. */
+  z-index: -1; /* Define uma propriedade e valor específicos. */
+  opacity: 0; /* Define uma propriedade e valor específicos. */
+}
+
+.bg2 { /* Define estilos para a classe especificada. */
+  position: fixed; /* Define uma propriedade e valor específicos. */
+  bottom: -2rem; /* Define uma propriedade e valor específicos. */
+  right: -3rem; /* Define uma propriedade e valor específicos. */
+  z-index: -1; /* Define uma propriedade e valor específicos. */
+  width: 9.375rem; /* Define uma propriedade e valor específicos. */
+  opacity: 0; /* Define uma propriedade e valor específicos. */
+}
+
+main &gt; div span { /* Define estilos para o elemento HTML especificado. */
+  text-transform: uppercase; /* Define uma propriedade e valor específicos. */
+  letter-spacing: 1.5px; /* Define uma propriedade e valor específicos. */
+  font-size: 1rem; /* Define uma propriedade e valor específicos. */
+  color: #ce0707; /* Define uma propriedade e valor específicos. */
+}
+
+main &gt; div h1 { /* Define estilos para o elemento HTML especificado. */
+  text-transform: capitalize; /* Define uma propriedade e valor específicos. */
+  letter-spacing: 0.8px; /* Define uma propriedade e valor específicos. */
+  font-family: "Roboto", sans-serif; /* Define uma propriedade e valor específicos. */
+  font-weight: 900; /* Define uma propriedade e valor específicos. */
+  font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 4rem); /* Define uma propriedade e valor específicos. */
+  background-color: #2500ca; /* Define uma propriedade e valor específicos. */
+  background-image: linear-gradient(45deg, #005baa, #000000); /* Define uma propriedade e valor específicos. */
+  background-size: 100%; /* Define uma propriedade e valor específicos. */
+  background-repeat: repeat; /* Define uma propriedade e valor específicos. */
+  -webkit-background-clip: text; /* Define uma propriedade e valor específicos. */
+  -webkit-text-fill-color: transparent; /* Define uma propriedade e valor específicos. */
+  -moz-background-clip: text; /* Define uma propriedade e valor específicos. */
+  -moz-text-fill-color: transparent; /* Define uma propriedade e valor específicos. */
+}
+
+main &gt; div hr { /* Define estilos para o elemento HTML especificado. */
+  display: block; /* Define uma propriedade e valor específicos. */
+  background: #2f00af; /* Define uma propriedade e valor específicos. */
+  height: 0.25rem; /* Define uma propriedade e valor específicos. */
+  width: 6.25rem; /* Define uma propriedade e valor específicos. */
+  border: none; /* Define uma propriedade e valor específicos. */
+  margin: 1.125rem 0 1.875rem 0; /* Define uma propriedade e valor específicos. */
+}
+
+
+main &gt; div p { /* Define estilos para o elemento HTML especificado. */
+  line-height: 1.6; /* Define uma propriedade e valor específicos. */
+}
+
+main a { /* Define estilos para o elemento HTML especificado. */
+  display: inline-block; /* Define uma propriedade e valor específicos. */
+  text-decoration: none; /* Define uma propriedade e valor específicos. */
+  text-transform: uppercase; /* Define uma propriedade e valor específicos. */
+  color: #8d6868; /* Define uma propriedade e valor específicos. */
+  font-weight: 500; /* Define uma propriedade e valor específicos. */
+  background: #ffffff; /* Define uma propriedade e valor específicos. */
+  border-radius: 3.125rem; /* Define uma propriedade e valor específicos. */
+  transition: 0.3s ease-in-out; /* Define uma propriedade e valor específicos. */
+}
+
+main &gt; div &gt; a { /* Define estilos para o elemento HTML especificado. */
+  border: 2px solid #c2c2c2; /* Define uma propriedade e valor específicos. */
+  margin-top: 2.188rem; /* Define uma propriedade e valor específicos. */
+  padding: 0.625rem 1.875rem; /* Define uma propriedade e valor específicos. */
+}
+
+main &gt; div &gt; a:hover { /* Define estilos para o elemento HTML especificado. */
+  border: 0.125rem solid #005baa; /* Define uma propriedade e valor específicos. */
+  color: #005baa; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper { /* Define estilos para a classe especificada. */
+  width: 100%; /* Define uma propriedade e valor específicos. */
+  padding-top: 3.125rem; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active { /* Define estilos para a classe especificada. */
+  background: #b91c1c; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-pagination { /* Define estilos para a classe especificada. */
+  bottom: 1.25rem !important; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-slide { /* Define estilos para a classe especificada. */
+  width: 18.75rem; /* Define uma propriedade e valor específicos. */
+  height: 28.125rem; /* Define uma propriedade e valor específicos. */
+  display: flex; /* Define uma propriedade e valor específicos. */
+  flex-direction: column; /* Define uma propriedade e valor específicos. */
+  justify-content: end; /* Define uma propriedade e valor específicos. */
+  align-items: self-start; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-slide h2 { /* Define estilos para a classe especificada. */
+  color: #fff; /* Define uma propriedade e valor específicos. */
+  font-family: "Roboto", sans-serif; /* Define uma propriedade e valor específicos. */
+  font-weight: 400; /* Define uma propriedade e valor específicos. */
+  font-size: 1.4rem; /* Define uma propriedade e valor específicos. */
+  line-height: 1.4; /* Define uma propriedade e valor específicos. */
+  margin-bottom: 0.625rem; /* Define uma propriedade e valor específicos. */
+  padding: 0 0 0 1.563rem; /* Define uma propriedade e valor específicos. */
+  text-transform: uppercase; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-slide p { /* Define estilos para a classe especificada. */
+  color: #dadada; /* Define uma propriedade e valor específicos. */
+  font-family: "Roboto", sans-serif; /* Define uma propriedade e valor específicos. */
+  font-weight: 300; /* Define uma propriedade e valor específicos. */
+  padding: 0 1.563rem; /* Define uma propriedade e valor específicos. */
+  line-height: 1.6; /* Define uma propriedade e valor específicos. */
+  font-size: 0.75rem; /* Define uma propriedade e valor específicos. */
+  display: -webkit-box; /* Define uma propriedade e valor específicos. */
+  -webkit-line-clamp: 4; /* Define uma propriedade e valor específicos. */
+  -webkit-box-orient: vertical; /* Define uma propriedade e valor específicos. */
+  overflow: hidden; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-slide a { /* Define estilos para a classe especificada. */
+  margin: 1.25rem 1.563rem 3.438rem 1.563rem; /* Define uma propriedade e valor específicos. */
+  padding: 0.438em 1.875rem; /* Define uma propriedade e valor específicos. */
+  font-size: 0.9rem; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-slide a:hover { /* Define estilos para a classe especificada. */
+  color: #005baa; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-slide div { /* Define estilos para a classe especificada. */
+  display: none; /* Define uma propriedade e valor específicos. */
+  opacity: 0; /* Define uma propriedade e valor específicos. */
+  padding-bottom: 0.625rem; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-slide-active div { /* Define estilos para a classe especificada. */
+  display: block; /* Define uma propriedade e valor específicos. */
+  opacity: 1; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-slide--one { /* Define estilos para a classe especificada. */
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("images/adc9813f2d83fcf65c55d429e47f71cd.jpg") no-repeat 50% 50%/cover; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-slide--two { /* Define estilos para a classe especificada. */
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("images/727181745d2b8260c5a5d97661402dfe.jpg") no-repeat 50% 50%/cover; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-slide--three { /* Define estilos para a classe especificada. */
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("images/5398cb8930f0408e7a759755cbd2d117.jpg") no-repeat 50% 50%/cover; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-slide--four { /* Define estilos para a classe especificada. */
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("images/e414603d865a08f3e8f59e2b2d4e40fe.jpg") no-repeat 50% 50%/cover; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-slide--five { /* Define estilos para a classe especificada. */
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400), url("images/4628dd4562e6f9105710daaa8b34cb94.jpg") no-repeat 50% 50%/cover; /* Define uma propriedade e valor específicos. */
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right { /* Define estilos para a classe especificada. */
+  background-image: none; /* Define uma propriedade e valor específicos. */
+}
+
+@media screen and (min-width: 48rem) { /* Define estilos para o elemento HTML especificado. */
+  main { /* Define estilos para o elemento HTML especificado. */
+    display: flex; /* Define uma propriedade e valor específicos. */
+    align-items: center; /* Define uma propriedade e valor específicos. */
+  }
+
+  .bg,
+.bg2 { /* Define estilos para a classe especificada. */
+    opacity: 0.1; /* Define uma propriedade e valor específicos. */
+  }
+}
+@media screen and (min-width: 93.75rem) { /* Define estilos para a classe especificada. */
+  .swiper { /* Define estilos para a classe especificada. */
+    width: 85%; /* Define uma propriedade e valor específicos. */
+  }
+}
